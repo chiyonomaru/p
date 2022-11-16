@@ -261,10 +261,6 @@ footer {
     display: none;
   }    
 
-@media screen and (max-width 640px) {
-  
-  }
-
   .menu-icon {
     display: block;
   }
@@ -307,6 +303,10 @@ footer {
     position: relative;
   }
 
+  @media screen and (max-width 640px) {
+  
+  }
+  
   #logo {
     display: none;
   }
