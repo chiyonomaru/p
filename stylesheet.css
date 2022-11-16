@@ -20,6 +20,14 @@ img {
   padding-top: 50px;
   margin-bottom: 64px;
 }
+
+.topPage header h1 img {
+  width:  240;
+}
+.topPage header h1 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
