@@ -259,6 +259,10 @@ footer {
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
+  }    
+
+@media screen and (max-width 640px) {
+  
   }
 
   .menu-icon {
