@@ -28,6 +28,12 @@ img {
   text-align: center;
 }
 
+.linkList {
+  padding: 0 20px;
+}
+.linkList li {
+  margin-bottom: 40px;
+}
 a {
   text-decoration: none;
 }
