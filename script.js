@@ -1,4 +1,5 @@
 // Window幅に応じたメニュー表示の変更
+$( function(){
 function ShowAndHide(win){
   if(win > 800){
     $("#button").show();
@@ -9,7 +10,6 @@ function ShowAndHide(win){
   }
 }
 
-$( function(){
 
   // 初めてページを開いた時の状態チェック
   var win =$(window).width();
