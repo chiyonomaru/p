@@ -1,36 +1,27 @@
-* {
-  box-sizing: border-box;
-   overflow: scroll;
+*   {
+   margin: 0;
+  padding: 0;
+   overflow-x:auto;
+ 
+ 
+  
 }
 
-body {
-  margin: -0;
+.body {
+  overflow:scroll;
+  margin: 0;
   font-family: 'Catamaran','Noto Sans JP' sans-serif;
   font-size: 16px;
   line-height:  1.0;
   color: #fff;
 }
 
-img {
+ img {
   max-width: 100%;
+  overflow:hidden;
 }
 
-.box {
- height: 150px;
- overflow-y: scroll;
- /* IE, Edge 対応 */
- -ms-overflow-style: none;
- /* Firefox 対応 */
- scrollbar-width: none;
-}
-/* Chrome, Safari 対応 */
-.box::-webkit-scrollbar {
- display:none;
-}
 
-.box::-webkit-scrollbar {
- display:none;
-}
 
 .topPage header {
   height: 90vh;
@@ -42,6 +33,7 @@ img {
 .topPage header h1 img {
   width:  240px;
 }
+
 .topPage header h1 {
   text-align: center;
 }
@@ -52,7 +44,10 @@ img {
 .linkList li {
   margin-bottom: 40px;
 }
-a {
+.linkList li a span {
+  display: block;
+  background-color: #f5f5f5;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -64,9 +59,9 @@ a {
 
 .top-wrapper {
   margin: left;
-  padding: 180px 0 100px 0;
+  padding: 18px 0 10px 0;
   background-image: url(kyk.png);
-  background-size: 100;
+  background-size: 10;
   color: white;
   text-align: center;
 }
@@ -125,7 +120,7 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 165px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
@@ -473,3 +468,5 @@ video {
     width: 35px;
     height: 35px;
   }
+
+
