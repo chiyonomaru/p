@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  overflow:hidden;
+   overflow:hidden;
 }
 
 body {
@@ -17,15 +17,24 @@ img {
 
 .topPage header {
   height: 90vh;
-  background: url(../images/top_bg.png) no-repeat center top/cover;
+  background: url(images/top_bg.png) no-repeat center top/cover;
   padding-top: 50px;
   margin-bottom: 64px;
 }
 
 .topPage header h1 img {
-  width: 240px;
+  width:  240px;
+}
+.topPage header h1 {
+  text-align: center;
 }
 
+.linkList {
+  padding: 0 20px;
+}
+.linkList li {
+  margin-bottom: 40px;
+}
 a {
   text-decoration: none;
 }
@@ -253,7 +262,7 @@ footer {
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
-  }
+  }    
 
   .menu-icon {
     display: block;
@@ -297,6 +306,10 @@ footer {
     position: relative;
   }
 
+  @media screen and (max-width 640px) {
+  
+  }
+  
   #logo {
     display: none;
   }
@@ -443,5 +456,3 @@ video {
     width: 35px;
     height: 35px;
   }
-
-}
