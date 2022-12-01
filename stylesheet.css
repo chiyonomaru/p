@@ -15,6 +15,19 @@ img {
   max-width: 100%;
 }
 
+.box {
+ height: 150px;
+ overflow-y: scroll;
+ /* IE, Edge 対応 */
+ -ms-overflow-style: none;
+ /* Firefox 対応 */
+ scrollbar-width: none;
+}
+/* Chrome, Safari 対応 */
+.box::-webkit-scrollbar {
+ display:none;
+}
+
 .topPage header {
   height: 90vh;
   background: url(images/top_bg.png) no-repeat center top/cover;
