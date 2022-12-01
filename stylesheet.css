@@ -15,8 +15,7 @@ img {
   max-width: 100%;
 }
 
-.box::-webkit-scrollbar {
- display:none; 
+.box {
  height: 150px;
  overflow-y: scroll;
  /* IE, Edge 対応 */
@@ -25,6 +24,10 @@ img {
  scrollbar-width: none;
 }
 /* Chrome, Safari 対応 */
+.box::-webkit-scrollbar {
+ display:none;
+}
+
 .box::-webkit-scrollbar {
  display:none;
 }
