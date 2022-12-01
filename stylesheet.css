@@ -12,11 +12,11 @@ body {
 
 img {
   max-width: 100%;
-  text-align: center;
 }
 
 .topPage header {
   height: 90vh;
+  text-align: center;
   background: url(../images/top_bg.png) no-repeat center top/cover;
   padding-top: 50px;
   margin-bottom: 64px;
