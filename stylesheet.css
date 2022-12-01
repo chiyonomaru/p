@@ -1,11 +1,5 @@
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -44,10 +38,9 @@ a {
   text-decoration: none;
 }
 
-#container {
-  position: relative;
-  width: 80%;
-  max-width: 960px;
+.container {
+  width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -264,7 +257,7 @@ footer {
     font-size: 20px;
   }
 }
-///
+
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -307,15 +300,11 @@ footer {
   }
 }
 /******** MOBILE LAYOUT *********/
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 800px) {
   header {
     position: relative;
   }
 
-  #container {
-  margin: auto;
-  max-width: 960px;
-}
   @media screen and (max-width 640px) {
   
   }
