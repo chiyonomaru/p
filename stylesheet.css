@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-#container {
-  margin: auto;
-  max-width: 960px;
-}
-
 body {
   margin: -0;
   font-family: 'Catamaran','Noto Sans JP' sans-serif;
@@ -310,6 +305,10 @@ footer {
     position: relative;
   }
 
+  #container {
+  margin: auto;
+  max-width: 960px;
+}
   @media screen and (max-width 640px) {
   
   }
