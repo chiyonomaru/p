@@ -1,53 +1,31 @@
-*   {
-   margin: 0;
-  padding: 0;
-   overflow-x:auto;
- 
- 
-  
+* {
+  box-sizing: border-box;
 }
 
-.body {
-  overflow:scroll;
-  margin: 0;
+body {
+  margin: -0;
   font-family: 'Catamaran','Noto Sans JP' sans-serif;
   font-size: 16px;
   line-height:  1.0;
   color: #fff;
 }
 
- img {
+img {
   max-width: 100%;
-  overflow:hidden;
 }
-
-
 
 .topPage header {
   height: 90vh;
-  background: url(images/top_bg.png) no-repeat center top/cover;
+  background: url(../images/top_bg.png) no-repeat center top/cover;
   padding-top: 50px;
   margin-bottom: 64px;
 }
 
 .topPage header h1 img {
-  width:  240px;
+  width: 240px;
 }
 
-.topPage header h1 {
-  text-align: center;
-}
-
-.linkList {
-  padding: 0 20px;
-}
-.linkList li {
-  margin-bottom: 40px;
-}
-.linkList li a span {
-  display: block;
-  background-color: #f5f5f5;
-  font-size: 18px;
+a {
   text-decoration: none;
 }
 
@@ -59,9 +37,9 @@
 
 .top-wrapper {
   margin: left;
-  padding: 18px 0 10px 0;
+  padding: 180px 0 100px 0;
   background-image: url(kyk.png);
-  background-size: 10;
+  background-size: 100;
   color: white;
   text-align: center;
 }
@@ -120,7 +98,7 @@
 }
 
 header {
-  height: 165px;
+  height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
@@ -274,7 +252,7 @@ footer {
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
-  }    
+  }
 
   .menu-icon {
     display: block;
@@ -318,10 +296,6 @@ footer {
     position: relative;
   }
 
-  @media screen and (max-width 640px) {
-  
-  }
-  
   #logo {
     display: none;
   }
@@ -469,4 +443,4 @@ video {
     height: 35px;
   }
 
-
+}
