@@ -2,8 +2,8 @@
 $(function　(){
 function ShowAndHide(win){
   if(win > 800){
-    $("#button").show();
-    $("#lists").hide();
+    $("#button").hide();
+    $("#lists").show();
   }else{
     $("#button").hide();
     $("#lists").show();
