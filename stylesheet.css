@@ -15,7 +15,8 @@ img {
   max-width: 100%;
 }
 
-.box {
+.box::-webkit-scrollbar {
+ display:none; 
  height: 150px;
  overflow-y: scroll;
  /* IE, Edge 対応 */
