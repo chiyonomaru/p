@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  
 }
 
 body {
@@ -17,7 +16,6 @@ img {
 
 .topPage header {
   height: 90vh;
-  text-align: center;
   background: url(../images/top_bg.png) no-repeat center top/cover;
   padding-top: 50px;
   margin-bottom: 64px;
@@ -32,7 +30,8 @@ a {
 }
 
 .container {
-  overflow:hidden;
+  text-align: center;
+  overflow: hidden;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
